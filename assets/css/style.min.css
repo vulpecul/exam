@@ -1,0 +1,176 @@
+@font-face {
+    font-family: "Raleway";
+    src: url("../fonts/Raleway-Medium.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 500;
+}
+@font-face {
+    font-family: "Raleway";
+    src: url("../fonts/Raleway-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 600;
+}
+@font-face {
+    font-family: "Raleway";
+    src: url("../fonts/Raleway-SemiBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 700;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+body{
+    font-family: "Raleway";
+}
+.title{
+    font-size: 46px;
+    font-weight: 700; 
+}
+.text{
+    font-size: 22px;
+    font-weight: 500; 
+}
+.btn{
+    color: #fff;
+    background-color: #000;
+    border-radius: 40px;
+    padding: 10px 25px;
+}
+.btn:hover{
+    background-color: #f1a8c6;
+    transition: all 0.35s ease;
+}
+
+/*header*/
+.header{
+    padding: 20px 0;
+}
+.header_wrap{
+    display: flex;
+    align-items: center;
+}
+.header_logo{
+    margin-right: 80px;
+    cursor: pointer;
+}
+.header_list, .header_icons-list{
+    display: flex;
+}
+.header_list li{
+    margin-right: 20px;
+}
+.header_link{
+    color: black;
+    font-weight: 700;
+    border-bottom: 2px solid transparent;
+}
+.header_link:hover{
+    color: #f1a8c6;
+    border-bottom: 2px solid #f1a8c6;
+    transition: all 1s ease;
+}
+.header_icon{
+    margin-left: 20px;
+}
+.header_icons{
+    margin: 0 0 0 auto;
+    cursor: pointer;
+}
+
+/*main*/
+.main{
+    padding-bottom: 100px;
+    background: url('../img/section1/gradient.png') no-repeat center center/ cover;
+}
+.main_wrap{
+    display: flex;
+    justify-content: space-between;
+}
+.main_block{
+    max-width: 700px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.main_title{
+    margin-bottom: 30px;
+}
+.main_text{
+    width: 640px;
+    margin-bottom: 60px;
+}
+.main_btn{
+    width: 130px;
+}
+
+/*poster*/
+.poster{
+    padding: 100px 0;
+    background: url('../img/section3/plenka.png') no-repeat center center/ cover;
+}
+.poster_wrap{
+    display: flex;
+    justify-content: space-between;
+}
+.poster_block{
+    max-width: 700px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.poster_title{
+    margin-bottom: 30px;
+}
+.poster_text{
+    width: 640px;
+    margin-bottom: 60px;
+}
+.poster_btn{
+    width: 130px;
+}
+
+/*best*/
+.best{
+    padding: 100px 0;
+}
+.best_head{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.best_link{
+    color: #000;
+    font-weight: 700;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 5px;
+}
+.best_link:hover{
+    color: #f1a8c6;
+    border-bottom: 2px solid #f1a8c6;
+    transition: all 1s ease;
+}
+.best_row{
+    display: flex;
+    margin: 0 -35px;
+}
+.best_column{
+    margin: 0 35px;
+}
+.best_texts{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
